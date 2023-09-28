@@ -33,4 +33,10 @@ export const StyleButton = styled.button`
   width: 26px;
   border-radius: 800px;
   border: 1px solid #f0f0f0;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #f0f0f0;
+    transition: 0.5s;
+  }
 `
